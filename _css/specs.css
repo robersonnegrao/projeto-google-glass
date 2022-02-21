@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#frame-spec {
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden; /* renomer visualização de conteúdo????? */
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+    display: none; /* seria para esconder as barras de rolagem, mas não deu certo. inclui um scrolling="no" na criação do iframe no html */
+    
+}
